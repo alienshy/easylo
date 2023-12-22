@@ -109,19 +109,23 @@ header {
   width: 100%;
   height: 800px;
   background: linear-gradient(rgba(16, 201, 143, 0.4), rgba(16, 201, 143, 0.4)), url("https://preview.colorlib.com/theme/easylo/assets/img/hero/h1_hero1.jpg.webp");
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 header .headercon {
   width: 100%;
   height: 800px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   height: 600px;
   gap: 50px;
 }
 header .headercon .headertext {
   width: 40%;
-  height: 400px;
+  gap: 10px;
+  height: 420px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -129,4 +133,166 @@ header .headercon .headertext {
 header .headercon .headertext h1 {
   font-size: 70px;
   color: white;
-}/*# sourceMappingURL=easylo.css.map */
+}
+header .headercon .headertext hr {
+  width: 100px;
+  border: 2px solid white;
+  background-color: white;
+  height: 2px;
+}
+header .headercon .headertext h2 {
+  font-size: 24px;
+  line-height: 1.6;
+  font-weight: 500;
+  color: white;
+}
+header .headercon .headertext button {
+  width: 180px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 15px;
+  transition: 0.5s ease;
+}
+header .headercon .headertext button:hover {
+  background-color: #10C98F;
+  border: none;
+}
+header .headercon .headerarea {
+  background-color: white;
+  width: 40%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+header .headercon .headerarea h2 {
+  color: #0f4332;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+header .headercon .headerarea .p11 {
+  font-family: "Chivo", sans-serif;
+  color: #4c5753;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+header .headercon .headerarea hr {
+  width: 70px;
+  border: 1px solid #0f4332;
+  background-color: #0f4332;
+}
+header .headercon .headerarea .p1 {
+  width: 80%;
+  text-align: start;
+  display: flex;
+  color: #4c5753;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  line-height: 1.6;
+  display: flex;
+}
+header .headercon .headerarea .p1 span {
+  color: #10C98F;
+  font-weight: 400;
+  line-height: 1.6;
+}
+header .headercon .headerarea select {
+  outline: none;
+  width: 80%;
+  height: 50px;
+  border: 1px solid #a2a3a3;
+  padding: 0px 10px;
+}
+header .headercon .headerarea button {
+  background-color: #10C98F;
+  border: none;
+  width: 80%;
+  height: 50px;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+header .headercon .headerarea h4 {
+  color: #4c5753;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+main {
+  width: 100%;
+}
+main .maincon {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+main .maincon h1 {
+  color: #0f4332;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  width: 70%;
+}
+main .maincon hr {
+  width: 70px;
+  height: 3px;
+  border: 1px solid #10C98F;
+  background-color: #10C98F;
+}
+main .maincon p {
+  color: #6D6D6D;
+  width: 40%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+section {
+  width: 100%;
+}
+section .sectioncon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+section .sectioncon .divfo {
+  width: 30%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section .sectioncon .divfo p {
+  color: #0c8760;
+  font-size: 14px;
+}
+section .sectioncon .divfo h3 {
+  color: #0f4332;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.4;
+}
+section .sectioncon .divfo h4 {
+  font-family: "Chivo", sans-serif;
+  color: #4C5753;
+  font-size: 16px;
+  line-height: 30px;
+}

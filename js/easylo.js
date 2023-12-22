@@ -1,5 +1,5 @@
 window.addEventListener("scroll",()=>{
-    if(window.scrollY>800){
+    if(window.scrollY>300){
         document.querySelector("nav").style.backgroundColor = "#10C98F"
         document.querySelector("nav").style.top="0"
         document.querySelector("nav").style.left="0"
